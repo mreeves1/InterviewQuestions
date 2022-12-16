@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "python-template"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.10.0,<3.11"
+requests = "^2.28.1"
+
+[tool.poetry.dev-dependencies]
+black = "^22.12.0"
+debugpy = "^1.6.2"
+pipdeptree = "^2.3.3"
+pylint = "^2.15.8"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
